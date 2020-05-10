@@ -12,7 +12,7 @@ public class ReadProperties {
 
     private static Map<String,Properties> properties = new HashMap<String, Properties>();
 
-    public static String readProperties(String path, String key){
+    public static String readPropertyKey(String path, String key){
         String result = "";
         InputStream input = null;
         try{
